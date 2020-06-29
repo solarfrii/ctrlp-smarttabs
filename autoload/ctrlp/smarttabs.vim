@@ -59,8 +59,8 @@ if !exists('g:ctrlp_smarttabs_exclude_quickfix') | let g:ctrlp_smarttabs_exclude
 call add(g:ctrlp_ext_vars, {
  \ 'init': 'ctrlp#smarttabs#init()',
  \ 'accept': 'ctrlp#smarttabs#accept',
- \ 'lname': 'Smart Tabs',
- \ 'sname': 'Tabs',
+ \ 'lname': 'tabs',
+ \ 'sname': 'tab',
  \ 'type': 'line',
  \ 'enter': 'ctrlp#smarttabs#enter()',
  \ 'exit': 'ctrlp#smarttabs#exit()',
